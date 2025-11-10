@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back && npm install --prefix front && npm run build --prefix front",
+    "start": "npm run start --prefix back"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurlana-qlyva/thinkboard-mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nurlana-qlyva/thinkboard-mern/issues"
+  },
+  "homepage": "https://github.com/nurlana-qlyva/thinkboard-mern#readme"
+}
